@@ -1,6 +1,13 @@
-import streamlit as st
-import numpy as np
+import os
+os.system('pip install tensorflow==2.15.0')
+
 import tensorflow as tf
+import streamlit as st
+# ... your code
+
+##import streamlit as st
+import numpy as np
+##import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pandas as pd
 import pickle
